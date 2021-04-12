@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,17 +8,23 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 6rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer {
   width: 100%;
-  height: 100px;
+  height: 80px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
@@ -47,9 +53,10 @@
 }
 
 .title {
-  margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: "HWT Gothic Round";
+  color: #7aa850;
 }
 
 .title,
@@ -64,6 +71,7 @@
 
 .code {
   background: #fafafa;
+  color: #000;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -97,9 +105,12 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  cursor: pointer;
 }
 
 .card h3 {
+  background-color: #eaeaea;
+  padding: 5px;
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
@@ -114,9 +125,14 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .title {
+    margin: 10px;
+    font-size: 2rem;
+    font-family: "HWT Gothic Round";
   }
 }
