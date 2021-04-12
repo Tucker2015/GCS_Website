@@ -97,7 +97,7 @@
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 10px 27px rgba(0, 0, 0, 1); */
   }
   .navlogo {
     font-size: 1.3rem;
