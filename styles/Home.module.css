@@ -58,6 +58,12 @@
   font-family: "GothicRound";
   color: #7aa850;
 }
+.subtitle {
+  line-height: 1.15;
+  font-size: 2rem;
+  font-family: "GothicRound";
+  color: #7aa850;
+}
 
 .title,
 .description {
@@ -84,8 +90,8 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  max-width: 1000px;
+  margin-top: 1rem;
 }
 
 .card {
@@ -94,45 +100,63 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
+  height: 27rem;
+  background-color: rgba(26, 25, 44);
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
   cursor: pointer;
-}
+} */
 
 .card h3 {
-  background-color: #eaeaea;
+  border-radius: 10px;
+  background-color: rgba(77, 159, 175);
+  color: #fff;
   padding: 5px;
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
+  font-size: 1rem;
+  color: #fff;
 }
 
 .logo {
   height: 1em;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
   .title {
     margin: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: "GothicRound";
+  }
+}
+@media (max-width: 785px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .title {
+    margin: 10px;
+    font-size: 1.8rem;
     font-family: "GothicRound";
   }
 }

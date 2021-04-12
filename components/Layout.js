@@ -18,9 +18,9 @@ export default function Layout({ children }) {
                                 <a className={styles.navlink}>Home</a>
                             </li>
                         </Link>
-                        <Link href='/about'>
+                        <Link href='/services'>
                             <li className={styles.navitem}>
-                                <a className={styles.navlink}>About</a>
+                                <a className={styles.navlink}>Services</a>
                             </li>
                         </Link>
                         <Link href='/contact'>
