@@ -38,10 +38,11 @@
 
 .navlink {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   color: #e1e1e1;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: "Poppins";
 }
 
 .navlink:hover {
@@ -54,7 +55,7 @@
   display: flex;
   width: 100%;
   align-items: center;
-  font-family: "HWT Gothic Round";
+  font-family: "GothicRound";
 }
 .navlogo img {
   margin-right: 5px;

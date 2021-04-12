@@ -1,4 +1,12 @@
-@import url(https://db.onlinewebfonts.com/c/079d62ef271b2f03fefc4292ae17c013?family=HWT+Gothic+Round);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap");
+@font-face {
+  font-family: "GothicRound";
+  src: url("/fonts/HWT-Gothic-Round.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +16,7 @@
 html,
 body,
 body * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: inherit;
   background-color: inherit;
 }
