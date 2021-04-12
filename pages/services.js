@@ -5,8 +5,14 @@ export default function Service() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Create Next App</title>
+                <title>Global Cleaning Solutions</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link
+                    rel="preload"
+                    href="/fonts/HWT-Gothic-Round.ttf"
+                    as="font"
+                    crossOrigin=""
+                />
             </Head>
 
             <main className={styles.main}>

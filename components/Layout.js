@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import styles from '../styles/Layout.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
+
 export default function Layout({ children }) {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -8,6 +10,16 @@ export default function Layout({ children }) {
 
     return (
         <>
+            <Head>
+                <title>Global Cleaning Solutions</title>
+                <link rel="icon" href="/favicon.ico" />
+                <link
+                    rel="preload"
+                    href="/fonts/HWT-Gothic-Round.ttf"
+                    as="font"
+                    crossOrigin=""
+                />
+            </Head>
             <header className={styles.header}>
                 <nav className={styles.navbar}>
                     <a className={styles.navlogo}><img src="./logo.jpg">
