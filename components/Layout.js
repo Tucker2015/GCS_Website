@@ -40,6 +40,11 @@ export default function Layout({ children }) {
                                 <a className={styles.navlink}>Contact</a>
                             </li>
                         </Link>
+                        <Link href='/our_work'>
+                            <li className={styles.navitem}>
+                                <a className={styles.navlink}>Work</a>
+                            </li>
+                        </Link>
 
                     </ul>
                     <button className={isOpen === false ? styles.hamburger : styles.hamburger + ' ' + styles.active}

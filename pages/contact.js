@@ -20,7 +20,7 @@ export default function Contact() {
         <h1 className={styles.title}>
           GLOBAL CLEANING SOLUTIONS
         </h1>
-        <div className="card border border-2 text-center">
+        <div className="border border-2 text-center">
           <h5><i class="fas fa-phone-alt"></i> 07849 645139</h5>
           <h5><i class="fas fa-envelope"></i> darren@globalcleaningsolutions.co.uk</h5>
         </div>
