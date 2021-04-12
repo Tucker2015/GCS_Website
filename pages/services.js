@@ -36,6 +36,9 @@ export default function Service() {
                     </div>
                 </div>
             </main>
+            <footer className={styles.footer}>
+                <h3>© 2021, Global Cleaning Solutions</h3>
+            </footer>
         </div>
     )
 }

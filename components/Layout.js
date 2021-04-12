@@ -25,21 +25,16 @@ export default function Layout({ children }) {
                     <a className={styles.navlogo}><img src="./logo.jpg">
                     </img> Global Cleaning Solutions</a>
                     <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' + styles.active}>
-                        <Link href='/'>
-                            <li className={styles.navitem}>
-                                <a className={styles.navlink}>Home</a>
-                            </li>
-                        </Link>
-                        <Link href='/services'>
-                            <li className={styles.navitem}>
-                                <a className={styles.navlink}>Services</a>
-                            </li>
-                        </Link>
-                        <Link href='/contact'>
-                            <li className={styles.navitem}>
-                                <a className={styles.navlink}>Contact</a>
-                            </li>
-                        </Link>
+                        <li className={styles.navitem}>
+                            <a href='/' className={styles.navlink}>Home</a>
+                        </li>
+                        <li className={styles.navitem}>
+                            <a href='/services' className={styles.navlink}>Services</a>
+                        </li>
+                        <li className={styles.navitem}>
+                            <a href='/contact' className={styles.navlink}>Contact</a>
+                        </li>
+
                     </ul>
                     <button className={isOpen === false ? styles.hamburger : styles.hamburger + ' ' + styles.active}
                         onClick={openmenu}

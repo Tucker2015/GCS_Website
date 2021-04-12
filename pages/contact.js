@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
@@ -20,6 +20,12 @@ export default function Home() {
         <h1 className={styles.title}>
           GLOBAL CLEANING SOLUTIONS
         </h1>
+        <h1><i class="fas fa-phone-alt"></i></h1>
+        <div id={styles.soc}>
+          <div className={styles.soc}><a href="https://www.facebook.com/global.cleaning.solutions1"><i className="fab fa-facebook-square"></i></a></div>
+          <div className={styles.soc}><a href="https://www.instagram.com/global.cleaning.solutions/"><i className="fab fa-instagram-square"></i></a></div>
+          <div className={styles.soc}><a href="/"><i className="fab fa-twitter-square"></i></a></div>
+        </div>
       </main>
       <footer className={styles.footer}>
         <h3>© 2021, Global Cleaning Solutions</h3>
