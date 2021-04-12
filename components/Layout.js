@@ -22,18 +22,24 @@ export default function Layout({ children }) {
             </Head>
             <header className={styles.header}>
                 <nav className={styles.navbar}>
-                    <a className={styles.navlogo}><img src="./logo.jpg">
-                    </img> Global Cleaning Solutions</a>
+                    <div className={styles.navlogo}><img src="./logo.jpg">
+                    </img> Global Cleaning Solutions</div>
                     <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' + styles.active}>
-                        <li className={styles.navitem}>
-                            <a href='/' className={styles.navlink}>Home</a>
-                        </li>
-                        <li className={styles.navitem}>
-                            <a href='/services' className={styles.navlink}>Services</a>
-                        </li>
-                        <li className={styles.navitem}>
-                            <a href='/contact' className={styles.navlink}>Contact</a>
-                        </li>
+                        <Link href='/'>
+                            <li className={styles.navitem}>
+                                <a className={styles.navlink}>Home</a>
+                            </li>
+                        </Link>
+                        <Link href='/services'>
+                            <li className={styles.navitem}>
+                                <a className={styles.navlink}>Services</a>
+                            </li>
+                        </Link>
+                        <Link href='/contact'>
+                            <li className={styles.navitem}>
+                                <a className={styles.navlink}>Contact</a>
+                            </li>
+                        </Link>
 
                     </ul>
                     <button className={isOpen === false ? styles.hamburger : styles.hamburger + ' ' + styles.active}

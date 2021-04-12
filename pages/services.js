@@ -37,7 +37,7 @@ export default function Service() {
                 </div>
             </main>
             <footer className={styles.footer}>
-                <h3>© 2021, Global Cleaning Solutions</h3>
+                <h5>© 2021, Global Cleaning Solutions</h5>
             </footer>
         </div>
     )

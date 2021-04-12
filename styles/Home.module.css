@@ -140,13 +140,27 @@
 #soc div:nth-child(1) {
   color: rgb(59, 89, 152);
 }
+#soc div:nth-child(1) a:hover {
+  color: rgb(14, 51, 131);
+}
 #soc div:nth-child(3) {
   color: #1da1f2;
+}
+#soc div:nth-child(3) a:hover {
+  color: #14699f;
 }
 #soc div:nth-child(2) {
   color: #c32aa3;
 }
-
+#soc div:nth-child(2) a:hover {
+  color: #ac248f;
+}
+#soc div:nth-child(4) {
+  color: #c32aa3;
+}
+#soc div:nth-child(4) a:hover {
+  color: #ac248f;
+}
 @media (max-width: 1050px) {
   .grid {
     width: 100%;
