@@ -20,7 +20,7 @@ export default function Service() {
                 <div className={styles.grid}>
                     <div className={styles.card}>
                         <h3>WHAT IS A BASIC CLEAN ?</h3>
-                        <p>• Customers who already have a certain degree of clenliness and organisation in their Homes/Businesses may opt for a basic clean.</p>
+                        <p>• Customers who already have a certain degree of cleanliness and organisation in their Homes/Businesses may opt for a basic clean.</p>
                         <br></br>
                         <p>• Therefore, regular customers prefer basic cleans on a regular basis.  Usually after an initial deep clean if required.</p>
                         <br></br>

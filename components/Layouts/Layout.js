@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from '../styles/Layout.module.css'
+import styles from '../../styles/Layout.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -30,8 +30,10 @@ export default function Layout({ children }) {
                             <span className="navbar-toggler-icon" />
                         </button>
                         <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
-                            <a className="nav-link text-info" href="/contact">Support</a>
-                            <a className="nav-link text-info" href="/login">Login</a>
+                            <a className="nav-link text-info" href="/">Home</a>
+                            <a className="nav-link text-info" href="/contact">Contact</a>
+                            <a className="nav-link text-info" href="/services">Services</a>
+                            <a className="nav-link text-info" href="/our_work">Our Work</a>
                             <a href="/request-demo" className="btn btn-sm btn-info nav-link text-white" >Request demo</a>
                         </div>
                     </div>
