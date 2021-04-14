@@ -14,9 +14,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
 }
 .header {
-  border-bottom: 1px solid #e2e8f0;
 }
 
 .navbar {

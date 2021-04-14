@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-
+  background-color: #2d2e2e;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,6 +57,7 @@
   font-size: 4rem;
   font-family: "GothicRound";
   color: #7aa850;
+  margin-bottom: 20px;
 }
 .subtitle {
   line-height: 1.15;
@@ -100,7 +101,7 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
-  height: 27rem;
+  height: 28rem;
   background-color: rgba(26, 25, 44);
   text-decoration: none;
   border: 1px solid #eaeaea;
@@ -131,23 +132,19 @@
 }
 
 .soc {
+  position: relative;
   display: inline-block;
-  font-size: 50px;
-  margin: 5px;
-  transition: background-image 0.2s;
+  font-size: 40px;
+  overflow: hidden;
 }
-
+.soc i {
+  background-color: #fff;
+}
 #soc div:nth-child(1) {
   color: rgb(59, 89, 152);
 }
 #soc div:nth-child(1) a:hover {
   color: rgb(14, 51, 131);
-}
-#soc div:nth-child(3) {
-  color: #1da1f2;
-}
-#soc div:nth-child(3) a:hover {
-  color: #14699f;
 }
 #soc div:nth-child(2) {
   color: #c32aa3;
@@ -155,11 +152,11 @@
 #soc div:nth-child(2) a:hover {
   color: #ac248f;
 }
-#soc div:nth-child(4) {
-  color: #c32aa3;
+#soc div:nth-child(3) {
+  color: #1da1f2;
 }
-#soc div:nth-child(4) a:hover {
-  color: #ac248f;
+#soc div:nth-child(3) a:hover {
+  color: #14699f;
 }
 @media (max-width: 1050px) {
   .grid {
