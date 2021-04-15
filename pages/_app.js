@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Head from "next/head";
 import { Layout } from '../components/index'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/slider.css'
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';

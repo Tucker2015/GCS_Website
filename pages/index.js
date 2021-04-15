@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Global Cleaning Solutions</title>
         <link rel="icon" href="/favicon.ico" />
@@ -21,9 +21,7 @@ export default function Home() {
           GLOBAL CLEANING SOLUTIONS
         </h1>
       </main>
-      <footer className={styles.footer}>
-        <h5>© 2021, Global Cleaning Solutions</h5>
-      </footer>
-    </div>
+
+    </>
   )
 }
