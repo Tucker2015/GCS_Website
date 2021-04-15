@@ -105,38 +105,35 @@
 .logo {
   height: 1em;
 }
-
-.soc {
-  display: inline-block;
+.fbIcon {
   font-size: 50px;
-  margin: 5px;
-  transition: background-image 0.2s;
-}
-
-#soc div:nth-child(1) {
   color: rgb(59, 89, 152);
 }
-#soc div:nth-child(1) a:hover {
+.fbIcon:hover {
   color: rgb(14, 51, 131);
 }
-#soc div:nth-child(3) {
-  color: #1da1f2;
+.igIcon {
+  font-size: 50px;
+  color: rgb(195, 42, 163);
 }
-#soc div:nth-child(3) a:hover {
-  color: #14699f;
+.igIcon:hover {
+  color: rgb(172, 36, 143);
 }
-#soc div:nth-child(2) {
-  color: #c32aa3;
+.twIcon {
+  font-size: 50px;
+  color: rgb(28, 160, 242);
 }
-#soc div:nth-child(2) a:hover {
-  color: #ac248f;
+.twIcon:hover {
+  font-size: 50px;
+  color: rgb(20, 105, 159);
 }
-#soc div:nth-child(4) {
-  color: #c32aa3;
-}
-#soc div:nth-child(4) a:hover {
-  color: #ac248f;
-}
+
+/* .soc {
+  display: inline-block;
+  margin: 5px;
+  transition: background-image 0.2s;
+} */
+
 @media (max-width: 1050px) {
   .grid {
     width: 100%;

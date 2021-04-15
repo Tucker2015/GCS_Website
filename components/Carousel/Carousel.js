@@ -43,8 +43,6 @@ const CarouselView = ({ slides }) => {
 
                                 <img src={slide.image} alt='Our work' className="image" onClick={handleShow} />
                                 <h4 className="slider-text">{slide.text}</h4>
-
-
                                 <Modal show={show} onHide={handleClose} size="lg"
                                     aria-labelledby="contained-modal-title-vcenter"
                                     centered>

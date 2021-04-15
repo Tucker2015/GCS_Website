@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaPhone, FaEnvelope } from 'react-icons/fa'
 export default function Contact() {
   return (
     <div className={styles.container}>
@@ -20,19 +20,16 @@ export default function Contact() {
         <h1 className={styles.title}>
           GLOBAL CLEANING SOLUTIONS
         </h1>
-        <div className="border border-2 text-center rounded-pill p-3 bg-dark text-light">
-          <h5><i class="fas fa-phone-alt"></i> 07849 645139</h5>
-          <h5><i class="fas fa-envelope"></i> darren@globalcleaningsolutions.co.uk</h5>
+        <div className="border border-2 text-center rounded-pill p-4 bg-dark text-light">
+          <div className="h5"><FaPhone /> 07849 645139</div>
+          <div className="h5"><FaEnvelope /> darren@globalcleaningsolutions.co.uk</div>
         </div>
         <div id={styles.soc}>
-          <div className={styles.soc}><a href="https://www.facebook.com/global.cleaning.solutions1"><i className="fab fa-facebook-square"></i></a></div>
-          <div className={styles.soc}><a href="https://www.instagram.com/global.cleaning.solutions/"><i className="fab fa-instagram-square"></i></a></div>
-          <div className={styles.soc}><a href="/"><i className="fab fa-twitter-square"></i></a></div>
+          <a href="https://www.facebook.com/global.cleaning.solutions1"><FaFacebookSquare className={styles.fbIcon} /></a>
+          <a href="https://www.instagram.com/global.cleaning.solutions/"><FaInstagramSquare className={styles.igIcon} /></a>
+          <a href="/"><FaTwitterSquare className={styles.twIcon} /></a>
         </div>
       </main>
-      <footer className={styles.footer}>
-        <h5>© 2021, Global Cleaning Solutions</h5>
-      </footer>
     </div >
   )
 }
