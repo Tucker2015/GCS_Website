@@ -48,7 +48,7 @@ export default function TopNavbar() {
                         <Link href="/our_work" passHref>
                             <Nav.Link>Our Work</Nav.Link>
                         </Link>
-                        <Link href="/about" passHref>
+                        <Link href="/about_us" passHref>
                             <Nav.Link>About Us</Nav.Link>
                         </Link>
                         <Link href="/contact" passHref>
